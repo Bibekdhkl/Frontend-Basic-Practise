@@ -1,0 +1,120 @@
+* {
+    padding:0px;
+    margin: 0px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+
+/* desktop */
+@media only screen and (min-width: 1024px) {}
+
+/* tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {}
+
+  /* mobile */
+  @media only screen and (max-width: 767px) {}
+
+
+
+  #top{
+    background-image: url("../assest/background.jpg");
+}    
+
+#top-first{
+    color:white;
+    text-align: center;
+    padding: 150px;
+    height: 70%;
+    background-color:rgba(0,0,0, 0.6);
+}
+
+.button{
+    background-color: #333333;
+    border: none;
+    color:white;
+    font-size: 20px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#footetop{
+    text-align: center;
+    padding: 40px ;
+    height: 150px;
+    background-color: #eaeaea;
+}
+
+.left{
+    float:left;
+    width:50%;
+}
+
+#second{
+    background-color:#333333;
+    overflow: auto;
+    padding: 10px 130px;
+}
+
+#web,
+#mobile,
+#Tech {
+   text-align: center;
+    float: left;
+    width:28%;
+    height: 400px;
+    margin: 8px;
+
+}
+#second h1, #second p{
+    background-color: white;
+}
+#third{
+    clear: both;
+    padding: 75px 70px ;
+    text-align: center;
+    background-color:  #eaeaea;
+}
+
+#left,
+#right {
+    text-align: center;
+    float: left;
+    width: 49%;
+    padding: 100px 5px 150px 5px;
+    color: white;
+
+}
+
+#left{
+    background-color: #2690D4;
+}
+
+#right{
+    background-color: #333333;
+}
+
+#footer{
+    clear:both;
+}
+
+.k,
+.l{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    float: left;
+    text-align: center;
+    font-size: larger;
+    width: 50%;
+}
+
+#footer a{
+    text-decoration: none;
+    color: lightseagreen;
+}
