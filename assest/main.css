@@ -3,7 +3,19 @@
     margin: 0px;
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    
 }    
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,h3{
+    margin: 0;
+
+}
 
 /* desktop */
 @media only screen and (min-width: 1024px) {}
@@ -57,22 +69,31 @@
 #second{
     background-color:#333333;
     overflow: auto;
-    padding: 10px 130px;
+    padding: 2em 1em 1em;
+    display: flex;
+    justify-content: space-around;
 }
+
+.content{
+    padding: 1em;
+}
+
+.bgmerge{
+    background: white;
+}
+
 
 #web,
 #mobile,
 #Tech {
-   text-align: center;
+    text-align: center;
     float: left;
-    width:28%;
+    width: 31%;
     height: 400px;
     margin: 8px;
 
 }
-#second h1, #second p{
-    background-color: white;
-}
+
 #third{
     clear: both;
     padding: 75px 70px ;
